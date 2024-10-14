@@ -1,4 +1,4 @@
-module github.com/gen2brain/x264-go
+module github.com/antrose99/x264-go
 
 go 1.19
 
