@@ -102,7 +102,7 @@ func NewEncoder(w io.Writer, opts *Options) (e *Encoder, err error) {
 	param.BRepeatHeaders = 1
 	param.BAnnexb = 1
 
-	param.BIntraRefresh = 1
+	param.BIntraRefresh = 0
 	param.IKeyintMax = int32(e.opts.FrameRate)
 	param.IFpsNum = uint32(e.opts.FrameRate)
 	param.IFpsDen = 1
